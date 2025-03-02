@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  web:
+    container_name: php_citations
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+    restart: always

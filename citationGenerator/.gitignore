@@ -1,0 +1,17 @@
+# Fichiers de configuration
+.env
+config/
+config/vhost.conf
+
+# Logs et fichiers temporaires
+*.log
+docker-compose.override.yml
+docker-compose.logs
+docker-compose-debug.yml
+
+# Cache & systèmes IDE
+.DS_Store
+.vscode/
+.idea/
+node_modules/
+__pycache__/

@@ -1,0 +1,10 @@
+
+# Ignorer les fichiers sensibles
+.env
+*.log
+node_modules/
+.vscode/
+.idea/
+__pycache__/
+*.sql
+
